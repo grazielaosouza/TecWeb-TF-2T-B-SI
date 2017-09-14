@@ -1,0 +1,47 @@
+<style>
+
+	body 
+	{
+		font: 75%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+		box-sizing: border-box;
+	}
+	
+	h1, h2, h3, h4, h5, h6 
+	{
+		text-align: center;
+	}
+	
+	a.tab
+	{
+		border: 1px solid black;
+		padding-top: 10px;
+		text-align: center;
+		width: 300px;
+		height: 30px;
+		display: inline-block;
+	}
+	a.tabtop
+	{
+		border: 1px solid black;
+		background-color: #00BFFF;
+		color: white;
+		font-weight: bold;
+		padding-top: 10px;
+		text-align: center;
+		width: 300px;
+		height: 30px;
+		display: inline-block;
+	}
+	a.nome_aluno
+	{
+		font-weight: bold;
+		
+	}
+	footer
+	{
+		background-color: #C0C0C0;
+		color: white-space;
+		font-style:italic;
+		text-align: center;
+	}
+</style>
