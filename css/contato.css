@@ -1,4 +1,4 @@
-<stile>@charset "UTF-8";
+@charset "UTF-8";
 
 :-moz-placeholder {
     color: blue;
@@ -10,17 +10,14 @@
 	font-weight: 600;
 }
 
-body 
-{
-	font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-}
 input
 {
 	border-bottom:1px solid #777;
 }
 fieldset
 {
-	border-bottom:2px solid;
+    position: relative;
+    border-bottom:2px solid;
 	height:auto; 
     width:500px;
 }
@@ -58,4 +55,3 @@ input {
 }
 textarea {padding:8px; width:300px;}
 button {margin-left:156px;}
-</stile>

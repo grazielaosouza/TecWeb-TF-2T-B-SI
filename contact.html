@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<htm lang="pt-br">
+
+    <head>
+        <title>FAPALUN</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/site_stile.css" />
+        <link rel="stylesheet" href="css/contato_stile.css" />
+    </head>
+
+    <body>
+        <div>
+
+            <header>
+                <h1 class="centro"> <b>FACULDADES PAULISTAS UNIDAS - FAPALUN</b> </h1>
+                <img src="img/logo1.jpg" alt="logo" class="img">
+                <h2 class="centro">Onde aprender também pode ser divertido.</h2>
+            </header>
+                <nav id="menu">
+                    <h1>Menu Principal </h1>
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cursos/cursos.html">Cursos</a></li>
+                        <li><a href="noticias.html">Notícias</a></li>
+                        <li>
+                            <a href="login.html">Academico</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ol>
+                </nav>
+                <form method="post" action="novoAluno">
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" /><br><br>
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" /><br><br>
+                    </div>
+                    <div>
+                        <label for="Fone">TELEFONE:</label>
+                        <input type="fone" id="fone" /><br><br>
+                    </div>
+                    <div>
+                           Assunto:
+                        <select name: "Assunto">
+                        <option>Financeiro </option>
+                        <option>Secretaria</option>
+                        <option>Vestibular</option>
+                        <option>Reclamações</option>
+                        <option>Sugestões</option>
+                        <option>Outros Assuntos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem:</label>
+                        <textarea id="msg"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Enviar sua mensagem</button>
+                    </div>
+                    <div class="button">
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+
+                <footer class="centro">
+                    Copyright ® 2017 – Fapalun – Todos os direitos reservados
+                </footer>
+        </body>
+    
+        </html>                

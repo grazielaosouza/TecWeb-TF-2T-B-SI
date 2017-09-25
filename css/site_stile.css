@@ -1,54 +1,22 @@
-<stile>@charset "UTF-8";
-nav#menu ol {
-    list-style: none;
-    text-transform: uppercase;
-    position: static;
-    top: -20px;
-    left: 300px;
-}
+@charset "UTF-8";
 
-nav#menu li:hover {
-    background-color: #606060;
-}
+nav#menu ol {     list-style: none;    text-transform: uppercase;    position: static;    top: -20px;    left: 300px;}
 
-nav#menu li {
-    display: inline-block;
-    background-color: #dddddd;
-    padding: 10px;
-    -webkit-transition: blackground-color 1s;
-    -moz-transition: blackground-color 1s;
-    -ms-transition: blackground-color 1s;
-    -o-transition: blackground-color 1s;
-    transition: blackground-color 1s;
-    margin: 0 auto;
-    width: 200px;
-}
+#content{     position: relative;    width: 761px;    margin: 0 auto;    padding: 0;}
 
-nav#menu h1 {
-    display: none;
-}
+body {	font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
 
-nav#menu a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
+nav#menu li:hover {    background-color: #606060;}
 
-.interface {
-    border-bottom: 1px #606060 solid;
-    height: 150px;
-    background: rgb(65, 184, 184);
-}
+nav#menu li {    display: inline-block; background-color: #dddddd;padding: 10px;-webkit-transition: blackground-color 1s;
+    -moz-transition: blackground-color 1s; -ms-transition: blackground-color 1s;-o-transition: blackground-color 1s;
+     transition: blackground-color 1s; margin: 0 auto;width: 200px;}
 
-.centro {
-    margin: 0 auto;
-    width: 800px;
-    padding: 20px;
-}
+nav#menu h1 {    display: none;}
 
-.img {
-    position: absolute;
-    left: 5px;
-    top: 0px;
-}
+nav#menu a:hover {    color: #ffffff;    text-decoration: underline;}
 
-</stile>
+header { font: 16/23px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
+.centro {    margin: 0 auto;    width: 800px;    padding: 20px;}
+
+.img {    position: absolute;    left: 5px;    top: 0px;}
