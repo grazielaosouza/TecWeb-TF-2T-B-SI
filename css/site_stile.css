@@ -16,8 +16,7 @@ nav#menu h1 {    display: none;}
 
 nav#menu a:hover {    color: #ffffff;    text-decoration: underline;}
 
-.interface { border-bottom: 1px #606060 solid; height: 150px; background: rgb(65, 184, 184);}
-
+header { font: 16/23px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
 .centro {    margin: 0 auto;    width: 800px;    padding: 20px;}
 
 .img {    position: absolute;    left: 5px;    top: 0px;}
