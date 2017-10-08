@@ -1,56 +1,128 @@
 <!DOCTYPE html>
-<htm lang="pt-br">
+<html lang="pt-br">
 
     <head>
         <title>FAPALUN</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="css/site_stile.css" />
+        <meta charset="utf-8" />        
+        <link rel="stylesheet" href="css/cabecalho.css" />
+        <link rel="stylesheet" href="css/index_style.css" />
     </head>
 
     <body>
-        <div>
-
-            <header>
-                <h1 class="centro"> <b>FACULDADES PAULISTAS UNIDAS - FAPALUN</b> </h1>
+            <header class="interface">
+                <div class="bloco">
+                <h1 class="centro">FACULDADES PAULISTAS UNIDAS</br>FAPALUN</h1>
                 <img src="img/logo1.jpg" alt="logo" class="img">
-                <h2 class="centro">Onde aprender também pode ser divertido.</h2>
-            </head>
+            
                 <nav id="menu">
-                    <h1>Menu Principal </h1>
-                    <ol>
+                    <ul class="nav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="cursos/cursos.html">Cursos</a></li>
                         <li><a href="noticias.html">Notícias</a></li>
-                        <li>
-                            <a href="login.html">Academico</a></li>
-                        <li><a href="contact.html">Contato</a></li>
-                    </ol>
+                        <li><a href="login.html">Academico</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
                 </nav>
+            </header>
             <section>
 
-                <p>
+
+                <h1 class="aprender">Onde aprender também pode ser divertido</h1>
+                <nav class="conteudo_borda">
+                    <nav id="conteudo">
+                    <ul>
+                        <li><a href="#objetivo">Objetivo</a></li>
+                        <li><a href="#bolsas">Bolsas</a></li>
+                        <li><a href="#convenios">Convênios</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href=".exalunos">Ex-Alunos</a></li>
+                    </ul>
+                    </nav>
+                </nav>
+
+                <h2 class="titulo" id="objetivo">Objetivo</h2>
                 <p class="texto">
-                    As faculdades Paulistas Unidas tem por objetivo formar profissionais com excelente conhecimento e preparados para o mercado de trabalho.
+                    As faculdades Paulistas Unidas tem por objetivo oferecer educação superior de excelência, propiciando a formação de profissionais de tecnologia com elevado nível de capacitação e potencial de liderança, com base em preceitos éticos, morais, científicos e humanísticos.</br>
+                    Formar profissionais competentes em seus programas de graduação e pós-graduação e produzir pesquisas inovadoras de alta qualidade, com inserção internacional, explorando a fronteira do conhecimento, mas também atentas às necessidades da sociedade</br>
+                    Interagir continuamente com o poder público e com a sociedade na disseminação de novos conhecimentos.
                 </p>
 
+                <h2 class="titulo" id="bolsas">Bolsas</h2>
+                <p class="texto">
+                    Faça o processo seletivo da faculdade, apresente o comprovante de pré-matrícula e matricule-se com a bolsa até o fim do curso.</br>
+                    Garanta sua graduação a partir de 2018 com descontos de até 80%! Cursos com NOTA MÁXIMA · Destaque-se no Mercado!! Programas de graduação. <a class="cursos" href="#cursos">Clique aqui</a> para saber mais!!
+
+                </p>
+                <h2 class="titulo" id="convenios">Convênios</h2>
+                <p class="texto">
+                        Há tendência mundial no meio acadêmico e científico de promover intercâmbio entre instituições, visando a obtenção de resultados científicos, tecnológicos e socioeconômicos de maior impacto. Neste contexto, a FAPALUN iniciará sua graduação, não se “apoiando” em instituições para desenvolver sua pesquisa, mas sim se aliando, quando necessário, a grupos de trabalho de outros centros.</br>
+                        O Programa de Graduação da FAPALUN mantém intensa cooperação e intercâmbio com outras Instituições, em diversos departamentos e laboratórios. </br></br>
+                        A FAPALUN também preparou em convênios com escolas de inglês um e-book especialmente para você que vai viajar e precisa de em bom livro de bolso com expressões em inglês para te ajudar no seu dia a dia! Faça seu cadastro e baixe grátis seu e-book exclusivo da Wizard.
+                </p>
+
+                <h2 class="titulo" id="cursos">Cursos</h2>
+
+                <table id="tabela_cursos">
+                        <caption>Encontre seu curso na FAPALUN</caption>
+                        
+                        <thead>
+                            <tr>
+                                <td>Curso</td>
+                                <td>Bolsa</td>
+                                <td>Mensalidade</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Análise e Desenvolvimento de Sistemas</td>
+                                <td>15%</td>
+                                <td>R$620,00</td>
+                            </tr>
+                            <tr>
+                                <td>Sistemas de Informação</td>
+                                <td>20%</td>
+                                <td>R$650,00</td>
+                            </tr>
+                            <tr>
+                                <td>Processos Gerenciais</td>
+                                <td>15%</td>
+                                <td>R$580,00</td>
+                            </tr>
+                            <tr>
+                                <td>Jogos Digitais</td>
+                                <td>20%</td>
+                                <td>R$600,00</td>
+                            </tr>
+                            <tr>
+                                <td>Banco de Dados</td>
+                                <td>20%</td>
+                                <td>R$615,00</td>
+                            </tr>
+                    </tbody>
+                </table>
+
+                <h2 class="titulo" id="exalunos">Ex-Alunos</h2>
 
                 <div>
-
-                    <a class="nome_aluno">Roberto Oliveira:</a> "Ótima faculdade, emprego garantido com um ensino de qualidade!"</br>
-                    <a class="nome_aluno">Francine Silva:</a> "Eu gostei muito, aprendi coisas que nunca tinha ouvido falar. As aulas de programação, por exemplo, foram muito interessantes."</br>
-                    <a class="nome_aluno">Leandro de Carvalho:</a> “O curso na TechWeb foi maravilhoso. Eu considero os professores da faculdade os melhores do mundo. Todas as aulas foram interessantes e muito legais, mas as que mais gostei foram as de
-                    programação Python e segurança da informação.”</br>
-
+                <p class="texto">
+                    <img src="img/roberto_oliveira.png" alt="roberto" class="ex_alunos">
+                    <a class="nome_aluno">Roberto Oliveira:</a> Ótima faculdade, emprego garantido com um ensino de qualidade!</br>
+                    <img src="img/francine_silva.jpg" alt="francine" class="ex_alunos">
+                    <a class="nome_aluno">Amanda de Oliveira:</a> Eu gostei muito, aprendi coisas que nunca tinha ouvido falar. As aulas de programação, por exemplo, foram muito interessantes.</br>
+                    <img src="img/leandro_carvalho.png" alt="leandro" class="ex_alunos">
+                    <a class="nome_aluno">Leandro de Carvalho:</a> O curso na FAPALUN foi maravilhoso. Eu considero os professores da faculdade os melhores do mundo. Todas as aulas foram interessantes e muito legais, mas as que mais gostei foram as de
+                    programação Python e segurança da informação.</br>
+                </p>
                 </div>
                 </br>
                 </br>
 
 
             </section>
-            <footer class="centro"></br>
-                <span><strong>Copyright ® 2017 – Fapalun – Todos os direitos reservados<strong></span>       
-                
-                    </footer>
+            <footer>
+                <p class="footer">Copyright ® 2017 – FAPALUN – Todos os direitos reservados</p>
+            </footer>
+    </body>
     </body>
 
-    </html>
+</html>
