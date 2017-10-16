@@ -12,11 +12,10 @@
 }
 
 header{    
-    background-color: #0c86cc;
+    background-image: url("../img/fundo.jpg");
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: 3px solid #0d7ab4;
     height: 150px;    
 }
 
@@ -38,7 +37,7 @@ nav#menu ul {
     display: flex;
     justify-content: space-around;
     margin: 10 auto;
-    background-color: #0c86cc;
+    background-image: url("../img/fundo.jpg");
     font: 20px "Myriad Pro", "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", "Verdana", "sans-serif";
 }
 
