@@ -1,0 +1,37 @@
+.section_cursos {
+    margin-top: 50px;
+}
+
+.titulo_curso{
+    font-size: 40px;
+    font-family: "Helvetica", "sans-serif";
+    text-align: center;
+    color: #f7f309;
+    font-weight: bold;  
+    text-shadow: 1px 2px 2px #0306b4;
+    
+}
+
+.imagem {
+    float:none; 
+    margin-left:auto; 
+    margin-right:auto;
+    width: 817px;
+    height: 320px;
+    
+}
+
+.descricao_curso {
+    text-align: justify;
+    width: 817px;
+    height: 320px;
+    font-size: 20px;
+    font-family: "Helvetica", "sans-serif";
+    font-weight: 500;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

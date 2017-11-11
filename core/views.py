@@ -37,7 +37,13 @@ def contato(request):
 
 
 def cursos(requisicao):
-    return render(requisicao,"cursos.html")
+    contexto={
+        "faculdade":"FACULDADES PAULISTAS UNIDAS",
+        "facul":"FAPALUN",
+        "pagina":"Cursos"
+    }
+
+    return render(requisicao,"cursos.html",contexto)
 
 
 

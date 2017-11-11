@@ -5,7 +5,7 @@
         <title>FAPALUN</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="../static/content/cabecalho.css" />
-        <link rel="stylesheet" href="../static/content/novos_style.css" />
+        <link rel="stylesheet" href="../static/content/novos_alunos.css" />
     </head>
 
     <body>
@@ -26,7 +26,7 @@
                     </ul>
                 </nav>
             </header>
-            <h1 class="cadastro">Cadastro de Novos Alunos</h1>
+            <h1 class="cadastro">Cadastro de Novos Candidatos</h1>
             <div id="area">
                 <form action="#" method="post">
                     <fieldset>
@@ -111,7 +111,7 @@
                         <div class="campo">
                             <label for="curso" id="curso">Curso</label>
                             <select name="curso" id="curso">
-                                <option value="">--</option>
+                                <option value="">Escolha um curso</option>
                                 <option value="Análise e Desenvolvimento de Sistemas">Análise e Desenvolvimento de Sistemas</option>
                                 <option value="Sistemas de Informação">Sistemas de Informação</option>
                                 <option value="Processos Gerenciais">Processos Gerenciais</option>
@@ -123,8 +123,8 @@
                             </select>
                         </div>
                                
-                        <button type="submit" name="submit">Enviar</button>
-                        <button type="reset" name="reset">Limpar</button>
+                        <button id="enviar" type="submit" name="submit">Enviar</button>
+                        <button id="limpar" type="reset" name="reset">Limpar</button>
                     </fieldset>
                 </form>
 			</div>
